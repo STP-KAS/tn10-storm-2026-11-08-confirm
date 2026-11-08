@@ -44,6 +44,8 @@ Call git by its full path. Keep the errors. Empty output is a failed read. Read 
 
 One runner on the desk. One runner on Mini. The runner is a process with a log. The chat is not the runner. A second runner is a fault. A scheduled task is not the arm. The 7 Nov tasks stay unused.
 
+The operator arms the machine. He sends the matching paste. Until that send, the machine waits. This holds for this run and for later runs until he says otherwise.
+
 ## This clock
 
 The day is Sun 8 Nov 2026. Start is 12:00 UTC (13:00 CET). Both pastes carry that day. A read of [GO-MINI.md](GO-MINI.md) on Mini starts Mini's runner, and Mini's first push is `logs/MINI-ARMED.md`. The desk hashes only when that line is on origin. A quiet chat does not stop the desk. [GO.md](GO.md) does not start a machine. After 11:40 UTC the pastes stay as they are. The 10:40 UTC waiter stays stopped.
