@@ -4,6 +4,8 @@
 
 Fixed 2026-11-08T15:20:10Z, before the 15:35 UTC send. sha256 of the lowercase hex id. The id is not in this file. This is hashes/SIXTEEN.md for the 8 Nov confirmation.
 
+On origin/main at 2026-11-08T15:20:11Z, commit 6ae79c9. That commit put these rows on GitHub. Fixed is the local write. On origin is that commit's time.
+
 | Family | sha256 |
 |---:|---|
 | 1 | `bbd534ed32c3ea6b8be933a48a9029244cf7bbdaa60c75953b022993e92cd9e2` |
