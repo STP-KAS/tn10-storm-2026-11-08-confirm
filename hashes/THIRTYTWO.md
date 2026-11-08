@@ -4,6 +4,8 @@
 
 Fixed 2026-11-08T13:32:08Z, before the 14:15 UTC load. sha256 of the lowercase hex id. The id is not in this file. This is hashes/THIRTYTWO.md for the 8 Nov confirmation.
 
+On origin/main at 2026-11-08T13:32:09Z, commit 412aba3. That commit put these rows on GitHub. Fixed is the local write. On origin is that commit's time.
+
 | Family | sha256 |
 |---:|---|
 | 1 | `f0fbb5b4be0ab8601ed7e8b28f97854420f6d493aafaa50c019e00da15f3eecd` |
