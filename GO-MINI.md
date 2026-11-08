@@ -42,7 +42,7 @@ A scheduled task is not the arm. The 7 Nov tasks have already fired. Leave them.
 
 If your armed line is not on origin by 11:45 UTC, the desk does not hash and does not send. Say so. Do not pick a third clock.
 
-If a Grok session compacts, or resume fails, leave the runner alone. Read its log. One runner on the desk. One runner on Mini. A second runner is a fault.
+If a Grok session compacts, or resume fails, leave the runner alone only when its log shows this 12:00 UTC clock. A runner that came on at 10:38 UTC is the old clock. Stop that process. Do not publish its count. One runner on the desk. One runner on Mini. A second runner is a fault.
 
 After 11:40 UTC on Sun 8 Nov 2026 this page stays as it is. A change during the run is how the 7 Nov window was lost.
 
