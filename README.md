@@ -8,7 +8,7 @@
 
 **Previous storm:** [tn10-storm-2026-11-08](https://github.com/STP-KAS/tn10-storm-2026-11-08). That repo is the rehearsal. It stands on its own. This plan does not move that clock.
 
-**The day is Sun 8 Nov 2026.** Start is 12:00 UTC (13:00 CET). This is a new run. It is not a restart of the 00:40 UTC rehearsal. Both pastes contain this day. A read of the desk paste on the desk starts the desk runner. A read of the Mini paste on Mini starts Mini's runner. The standing rule is [RULES.md](RULES.md).
+**The day is Sun 8 Nov 2026.** Start is 12:00 UTC (13:00 CET). This is a run. It is not a restart of the 00:40 UTC rehearsal. Both machines are armed. Mini's line is on origin: `MINI_ARMED 2026-11-08T11:06:45Z`, commit `c6cdfcc`. The desk hashes at 11:45 UTC. The standing rule is [RULES.md](RULES.md).
 
 ## The two pastes
 
@@ -23,7 +23,7 @@ Each file is the whole plan. Grok Build does not guess the machine from its own 
 
 ## Clock
 
-Times are UTC first. Desk local is CET (UTC+1). The shape is the 8 Nov rehearsal. The 10:40 UTC waiter was stopped before the hash. This start is 12:00 UTC. Mini's armed line has to be on origin before the desk hashes.
+Times are UTC first. Desk local is CET (UTC+1). The shape is the 8 Nov rehearsal. The 10:40 UTC waiter was stopped before the hash. This start is 12:00 UTC. Mini's armed line is on origin at 11:06:45 UTC.
 
 | | UTC | CET |
 |---|---|---|
