@@ -6,9 +6,9 @@
 
 | File | When it has to be here | What it covers |
 |---|---|---|
-| EIGHT.md | before 10:40 UTC on Sun 8 Nov 2026 | the 1-to-8 shape |
-| THIRTYTWO.md | before 12:55 UTC | the 32-family load |
-| SIXTEEN.md | before 14:15 UTC, and after the load | the sixteen-family step |
+| EIGHT.md | before 12:00 UTC on Sun 8 Nov 2026 | the 1-to-8 shape |
+| THIRTYTWO.md | before 14:15 UTC | the 32-family load |
+| SIXTEEN.md | before 15:35 UTC, and after the load | the sixteen-family step |
 
 Each row is a sha256 of a lowercase hex covenant id. The id stays off this repo. The desk paste is [GO-DESK.md](../GO-DESK.md). No file, no send.
 

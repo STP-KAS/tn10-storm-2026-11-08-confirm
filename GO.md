@@ -15,4 +15,4 @@ If the first sentence names the other machine, stop that session and paste the o
 
 Bot reads either file and watches. Bot does not send. The run does not wait for bot. The two counts will be [counts/mini/](counts/mini/README.md) and [counts/desk/](counts/desk/README.md). The hash rule is [hashes/README.md](hashes/README.md). The standing rule is [RULES.md](RULES.md).
 
-The day is Sun 8 Nov 2026. Start is 10:40 UTC (11:40 CET). This is a new run. It is not a restart of the 00:40 UTC rehearsal. This page does not start a machine.
+The day is Sun 8 Nov 2026. Start is 12:00 UTC (13:00 CET). This is a new run. It is not a restart of the 00:40 UTC rehearsal. This page does not start a machine.

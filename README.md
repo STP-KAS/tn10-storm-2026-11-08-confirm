@@ -1,4 +1,4 @@
-> **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only; tKAS has no value. **Confirmation run. Sun 8 Nov 2026, 10:40 UTC (11:40 CET).** Mainnet: **not tested (label B)**.
+> **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only; tKAS has no value. **Confirmation run. Sun 8 Nov 2026, 12:00 UTC (13:00 CET).** Mainnet: **not tested (label B)**.
 >
 > **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Named by the [11 Oct naming rule](https://github.com/STP-KAS/tn-master/blob/main/repos/INDEX.md): `tn10-storm-YYYY-MM-DD` plus a suffix, because `tn10-storm-2026-11-08` is the closed rehearsal.
 
@@ -8,7 +8,7 @@
 
 **Previous storm:** [tn10-storm-2026-11-08](https://github.com/STP-KAS/tn10-storm-2026-11-08). That repo is the rehearsal. It stands on its own. This plan does not move that clock.
 
-**The day is Sun 8 Nov 2026.** Start is 10:40 UTC (11:40 CET). This is a new run. It is not a restart of the 00:40 UTC rehearsal. Both pastes contain this day. A read of the desk paste on the desk starts the desk runner. A read of the Mini paste on Mini starts Mini's runner. The standing rule is [RULES.md](RULES.md).
+**The day is Sun 8 Nov 2026.** Start is 12:00 UTC (13:00 CET). This is a new run. It is not a restart of the 00:40 UTC rehearsal. Both pastes contain this day. A read of the desk paste on the desk starts the desk runner. A read of the Mini paste on Mini starts Mini's runner. The standing rule is [RULES.md](RULES.md).
 
 ## The two pastes
 
@@ -23,20 +23,21 @@ Each file is the whole plan. Grok Build does not guess the machine from its own 
 
 ## Clock
 
-Times are UTC first. Desk local is CET (UTC+1). The shape is the 8 Nov rehearsal, moved ten hours later so this run has its own clock.
+Times are UTC first. Desk local is CET (UTC+1). The shape is the 8 Nov rehearsal. The 10:40 UTC waiter was stopped before the hash. This start is 12:00 UTC. Mini's armed line has to be on origin before the desk hashes.
 
 | | UTC | CET |
 |---|---|---|
-| Both machines have read their paste | **10:20** | **11:20** |
-| Genesis, eight families | 10:35 | 11:35 |
-| Counts on | 10:38 | 11:38 |
-| **START (T0)** | **10:40** | **11:40** |
-| First sends finished | 12:10 | 13:10 |
-| First count off | 12:40 | 13:40 |
-| 32-family load | 12:55–13:40 | 13:55–14:40 |
-| Load count off | 13:55 | 14:55 |
-| Sixteen families, if the earlier part finished clean | **14:15–14:30** | **15:15–15:30** |
-| Sixteen-family count off | 14:45 | 15:45 |
+| Mini's armed line on origin | **11:40** | **12:40** |
+| Desk eight-hash, only if that line is there | **11:45** | **12:45** |
+| Genesis, eight families | 11:55 | 12:55 |
+| Counts on | 11:58 | 12:58 |
+| **START (T0)** | **12:00** | **13:00** |
+| First sends finished | 13:30 | 14:30 |
+| First count off | 14:00 | 15:00 |
+| 32-family load | 14:15–15:00 | 15:15–16:00 |
+| Load count off | 15:15 | 16:15 |
+| Sixteen families, if the earlier part finished clean | **15:35–15:50** | **16:35–16:50** |
+| Sixteen-family count off | 16:05 | 17:05 |
 
 The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 
@@ -71,6 +72,6 @@ The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 
 ## Results
 
-None yet. The sends start at 10:40 UTC. A number from the 8 Nov rehearsal stays in that repo. It is one desk reading. This confirmation is not that count, and it is not the counted storm.
+None yet. The sends start at 12:00 UTC. A number from the 8 Nov rehearsal stays in that repo. It is one desk reading. This confirmation is not that count, and it is not the counted storm.
 
 Counts only. No key, seed, txid, covenant id, address, host or port in this repo.

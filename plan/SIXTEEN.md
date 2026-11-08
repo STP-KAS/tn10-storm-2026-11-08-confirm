@@ -6,6 +6,6 @@ Eight families in this shape have cleared 1.14, slowest family about 1.26 hop/s.
 
 On 8 Nov 2026 the desk ran that step, 04:15–04:30 UTC, offer 1.2, one sender. Accepted hops 17,788. Mean 1,111.8 per family over 900 seconds. Low 1,089. High 1,171. The report line is 1,026. Every family was above it. The phase log had 2,120 unaccept lines. No family drop and no abort. Source: [the rehearsal method log](https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/logs/METHOD.md). Label **A** for that desk log. Label **C** as the network's number. Kaspa Pulse has not counted it.
 
-This plan runs the same step again, at 14:15–14:30 UTC on Sun 8 Nov 2026, only if the earlier part of this run finished clean, the pool is still above the abort line, the sixteen hashes are on this repo with an On origin time, and the start is not after 16:00 UTC. The desk sends. Both machines count. The 04:15 UTC step above is the rehearsal. It is not this clock.
+This plan runs the same step again, at 15:35–15:50 UTC on Sun 8 Nov 2026, only if the earlier part of this run finished clean, the pool is still above the abort line, the sixteen hashes are on this repo with an On origin time, and the start is not after 17:20 UTC. The desk sends. Both machines count. The 04:15 UTC step above is the rehearsal. It is not this clock.
 
 **43b** is the same sixteen, Mini sending, the desk counting. It has no date. It is not this plan. If this confirmation does not finish clean, 43b does not run.

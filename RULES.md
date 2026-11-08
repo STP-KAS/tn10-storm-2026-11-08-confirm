@@ -14,9 +14,9 @@ The desk sends and counts. The desk runner publishes three files when each windo
 
 | File | Counter on | Counter off |
 |---|---|---|
-| [counts/desk/FIRST.md](counts/desk/README.md) | 10:38 UTC | 12:40 UTC |
-| [counts/desk/LOAD.md](counts/desk/README.md) | 12:53 UTC | 13:55 UTC |
-| [counts/desk/SIXTEEN.md](counts/desk/README.md) | 14:13 UTC | 14:45 UTC |
+| [counts/desk/FIRST.md](counts/desk/README.md) | 11:58 UTC | 14:00 UTC |
+| [counts/desk/LOAD.md](counts/desk/README.md) | 14:13 UTC | 15:15 UTC |
+| [counts/desk/SIXTEEN.md](counts/desk/README.md) | 15:33 UTC | 16:05 UTC |
 
 Mini counts and does not send. Mini's runner publishes the same three windows under [counts/mini/](counts/mini/README.md). Each machine writes only its own folder. The chat does not publish either folder. Bot does not write them.
 
@@ -30,9 +30,9 @@ The desk writes each hash file before the matching send. Fixed is the local writ
 
 | File | Before |
 |---|---|
-| [hashes/EIGHT.md](hashes/README.md) | the 10:40 UTC send |
-| [hashes/THIRTYTWO.md](hashes/README.md) | the 12:55 UTC load |
-| [hashes/SIXTEEN.md](hashes/README.md) | the 14:15 UTC step, and after the load |
+| [hashes/EIGHT.md](hashes/README.md) | the 12:00 UTC send |
+| [hashes/THIRTYTWO.md](hashes/README.md) | the 14:15 UTC load |
+| [hashes/SIXTEEN.md](hashes/README.md) | the 15:35 UTC step, and after the load |
 
 The 8 Nov origin times stay in that rehearsal. They are not this run's proof.
 
@@ -46,4 +46,4 @@ One runner on the desk. One runner on Mini. The runner is a process with a log. 
 
 ## This clock
 
-The day is Sun 8 Nov 2026. Start is 10:40 UTC (11:40 CET). Both pastes carry that day. A read of [GO-DESK.md](GO-DESK.md) on the desk starts the desk runner. A read of [GO-MINI.md](GO-MINI.md) on Mini starts Mini's runner. [GO.md](GO.md) does not start a machine. After 10:20 UTC the pastes stay as they are.
+The day is Sun 8 Nov 2026. Start is 12:00 UTC (13:00 CET). Both pastes carry that day. A read of [GO-MINI.md](GO-MINI.md) on Mini starts Mini's runner, and Mini's first push is `logs/MINI-ARMED.md`. The desk hashes only when that line is on origin. A quiet chat does not stop the desk. [GO.md](GO.md) does not start a machine. After 11:40 UTC the pastes stay as they are. The 10:40 UTC waiter stays stopped.

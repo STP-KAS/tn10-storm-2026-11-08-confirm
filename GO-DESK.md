@@ -1,6 +1,8 @@
 > **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only; tKAS has no value. Mainnet: **not tested (label B)**.
 >
-> **Paste this on the desk only.** The same story for Mini is [GO-MINI.md](GO-MINI.md). This is the confirmation run. Sun 8 Nov 2026. T0 is 10:40 UTC. The standing rule is [RULES.md](RULES.md).
+> **Paste this on the desk only.** The same story for Mini is [GO-MINI.md](GO-MINI.md). This is the confirmation run. Sun 8 Nov 2026. T0 is 12:00 UTC. The standing rule is [RULES.md](RULES.md).
+>
+> **This paste replaces the 10:40 UTC clock.** That waiter was stopped before the hash. Do not revive it. One runner for 12:00 UTC. Mini's armed line on origin is the signal. A quiet chat is not a stop.
 
 # YOU ARE THE DESK
 
@@ -28,47 +30,50 @@ The times below are UTC on that day. CET is UTC+1.
 
 Boot the desk. Boot Mini. Leave both logged in. A locked screen is fine. Logging off is not.
 
-Before **10:20 UTC (11:20 CET)** on Sun 8 Nov 2026 the desk reads this file once, and Mini reads [GO-MINI.md](GO-MINI.md) once. That read starts that machine's runner. The runner is a process with a log. The chat is not the runner.
+Before **11:40 UTC (12:40 CET)** on Sun 8 Nov 2026 Mini reads [GO-MINI.md](GO-MINI.md) and pushes [logs/MINI-ARMED.md](logs/README.md). The desk runner is one process. The chat is not the runner.
 
-From that moment the clock below does the rest. Hashes, genesis, the sends, both counts, the 32-family load, and the sixteen-family step. No third sheet. No spoken word. No "genesis is in".
+You do not stop because a chat is quiet. Before the eight hash you read `logs/MINI-ARMED.md` from origin. The line starts with `MINI_ARMED` and a UTC time. If that line is missing at **11:45 UTC (12:45 CET)**, you stop. You do not hash. You do not send. You do not pick a third clock.
+
+The 10:40 UTC waiter is stopped. Do not revive it. One runner for this 12:00 clock. A second runner is a fault.
+
+From the armed line, the clock below does the rest. Hashes, genesis, the sends, both counts, the 32-family load, and the sixteen-family step. No third sheet. No spoken word. No "genesis is in".
 
 A scheduled task is not the arm. The 7 Nov tasks stay unused. Do not enable them.
 
-If the desk or Mini is not logged in by 10:20 UTC, this run does not start. Say which machine is down. Do not pick a new clock.
-
 If a Grok session compacts, or resume fails, leave the runner alone. Read its log. One runner on the desk. One runner on Mini. A second runner is a fault.
 
-After 10:20 UTC on Sun 8 Nov 2026 this page stays as it is. A change during the run is how the 7 Nov window was lost.
+After 11:40 UTC on Sun 8 Nov 2026 this page stays as it is. A change during the run is how the 7 Nov window was lost.
 
 ## The whole clock
 
-Start **T0** is **10:40 UTC (11:40 CET)** on Sun 8 Nov 2026.
+Start **T0** is **12:00 UTC (13:00 CET)** on Sun 8 Nov 2026.
 
 | UTC | CET | Who | What |
 |---|---|---|---|
-| 10:20 | 11:20 | desk, Mini | Last moment to be logged in and to have read the matching paste |
-| before 10:35 | before 11:35 | desk | Eight family hashes on this repo, with an On origin time. The read is logged |
-| 10:35 | 11:35 | desk | Genesis. Eight families |
-| 10:38 | 11:38 | desk, Mini | Counts on |
-| 10:40–10:55 | 11:40–11:55 | desk sends | 1 family, 15 minutes |
-| 11:00–11:15 | 12:00–12:15 | desk sends | 2 families, 15 minutes |
-| 11:20–11:35 | 12:20–12:35 | desk sends | 4 families, 15 minutes |
-| 11:40–11:55 | 12:40–12:55 | desk sends | 8 families, 15 minutes, only if 4 held the line |
-| 12:00–12:10 | 13:00–13:10 | desk sends | Ramp, 10 minutes |
-| 12:10 | 13:10 | desk | First sends finished |
-| 12:40 | 13:40 | desk, Mini | First count off. Each runner publishes its FIRST file |
-| before 12:55 | before 13:55 | desk | Thirty-two family hashes on this repo, with an On origin time |
-| 12:53 | 13:53 | desk, Mini | Load count on |
-| 12:55–13:40 | 13:55–14:40 | desk sends | 32 families, 45 minutes, offer 1.2 |
-| 13:55 | 14:55 | desk, Mini | Load count off. Each runner publishes its LOAD file |
-| 13:55–14:15 | 14:55–15:15 | both | Quiet. Recount. Sixteen hashes |
-| 14:13 | 15:13 | desk, Mini | Sixteen-family count on |
-| 14:15–14:30 | 15:15–15:30 | desk sends | **43a.** 16 families, 15 minutes, offer 1.2 |
-| 14:45 | 15:45 | desk, Mini | Sixteen-family count off. Each runner publishes its SIXTEEN file |
+| 11:40 | 12:40 | Mini | Armed line on origin: `logs/MINI-ARMED.md` |
+| 11:45 | 12:45 | desk | Eight hash starts only if that line is on origin |
+| before 11:55 | before 12:55 | desk | Eight family hashes on this repo, with an On origin time. The read is logged |
+| 11:55 | 12:55 | desk | Genesis. Eight families |
+| 11:58 | 12:58 | desk, Mini | Counts on |
+| 12:00–12:15 | 13:00–13:15 | desk sends | 1 family, 15 minutes |
+| 12:20–12:35 | 13:20–13:35 | desk sends | 2 families, 15 minutes |
+| 12:40–12:55 | 13:40–13:55 | desk sends | 4 families, 15 minutes |
+| 13:00–13:15 | 14:00–14:15 | desk sends | 8 families, 15 minutes, only if 4 held the line |
+| 13:20–13:30 | 14:20–14:30 | desk sends | Ramp, 10 minutes |
+| 13:30 | 14:30 | desk | First sends finished |
+| 14:00 | 15:00 | desk, Mini | First count off. Each runner publishes its FIRST file |
+| before 14:15 | before 15:15 | desk | Thirty-two family hashes on this repo, with an On origin time |
+| 14:13 | 15:13 | desk, Mini | Load count on |
+| 14:15–15:00 | 15:15–16:00 | desk sends | 32 families, 45 minutes, offer 1.2 |
+| 15:15 | 16:15 | desk, Mini | Load count off. Each runner publishes its LOAD file |
+| 15:15–15:35 | 16:15–16:35 | both | Quiet. Recount. Sixteen hashes |
+| 15:33 | 16:33 | desk, Mini | Sixteen-family count on |
+| 15:35–15:50 | 16:35–16:50 | desk sends | **43a.** 16 families, 15 minutes, offer 1.2 |
+| 16:05 | 17:05 | desk, Mini | Sixteen-family count off. Each runner publishes its SIXTEEN file |
 
-If the 4-family step does not hold the line, skip the 8-family step and start the ramp at **11:40 UTC (12:40 CET)**. The load stays at 12:55 UTC. The sixteen-family step stays at 14:15 UTC. Do not pull those later steps forward to fill the gap.
+If the 4-family step does not hold the line, skip the 8-family step and start the ramp at **13:00 UTC (14:00 CET)**. The load stays at 14:15 UTC. The sixteen-family step stays at 15:35 UTC. Do not pull those later steps forward to fill the gap.
 
-If the first part or the load does not finish clean, 43a does not start. If the pool is under the abort line at the 14:15 recount, 43a does not start. If 43a would start after **16:00 UTC (17:00 CET)**, the night is over and 43a does not start.
+If the first part or the load does not finish clean, 43a does not start. If the pool is under the abort line at the 15:35 recount, 43a does not start. If 43a would start after **17:20 UTC (18:20 CET)**, the night is over and 43a does not start.
 
 ## One offer, one sender
 
@@ -82,7 +87,7 @@ The ramp is 50 seconds on and 10 seconds off, from 1.2 up by 0.1 toward 2.1. It 
 
 The file clock is the accepting block's header time. The desk's notice time is not that clock. Mini's local receive time is not that clock. A minute that was not read in full stays marked. The gap is not filled.
 
-The abort line stays **2,500 coins** and **18,000 usable tKAS**. Recount before the 10:35 genesis, and again before 43a. Do not lower the line. Do not spend a mining coin at or above 100,000 tKAS. The fee stays where the counted windows left it. A submit rejected for the fee itself stops that part of the run.
+The abort line stays **2,500 coins** and **18,000 usable tKAS**. Recount before the 11:55 genesis, and again before 43a. Do not lower the line. Do not spend a mining coin at or above 100,000 tKAS. The fee stays where the counted windows left it. A submit rejected for the fee itself stops that part of the run.
 
 Before the first genesis, every key this night will use has a coin for every genesis that night. A key used twice needs two coins. A key used three times needs three. The sixteen-family hashes are published after the load, so the coin the hash file names is the coin genesis will spend. Do not print a balance.
 
@@ -94,9 +99,9 @@ Three files in this repo, each before its own first submit. The id stays off the
 
 | File | Families | Before |
 |---|---|---|
-| [hashes/EIGHT.md](hashes/README.md) | 8 | the 10:40 send |
-| [hashes/THIRTYTWO.md](hashes/README.md) | 32 | the 12:55 load |
-| [hashes/SIXTEEN.md](hashes/README.md) | 16 | the 14:15 step |
+| [hashes/EIGHT.md](hashes/README.md) | 8 | the 12:00 send |
+| [hashes/THIRTYTWO.md](hashes/README.md) | 32 | the 14:15 load |
+| [hashes/SIXTEEN.md](hashes/README.md) | 16 | the 15:35 step |
 
 Call git by its full path. Keep its own output, errors included. A git error is a git error. Empty output is a failed read. It is not proof that the file is missing, and it is not "zero hashes". Read once more with the same full path. If that read fails too, stop and say the read failed. No file, no send.
 
@@ -110,9 +115,9 @@ You send. You also count. Mini counts on its own node. You are the only sender.
 
 This read starts one runner. The runner sleeps until the clock. It writes a phase log. After the runner is up, the session can die. The runner keeps the clock.
 
-You count on the desk node for the same three windows Mini counts. The runner writes [counts/desk/FIRST.md](counts/desk/README.md) for 10:38–12:40, [counts/desk/LOAD.md](counts/desk/README.md) for 12:53–13:55, and [counts/desk/SIXTEEN.md](counts/desk/README.md) for 14:13–14:45. At each window end the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner. A minute you did not read in full stays marked. The gap is not filled. A txid, a key, a seed, an address, a host, a port, and a covenant id stay out of the file. The accepting block hash may stay on the row. You do not write [counts/mini/](counts/mini/README.md).
+You count on the desk node for the same three windows Mini counts. The runner writes [counts/desk/FIRST.md](counts/desk/README.md) for 11:58–14:00, [counts/desk/LOAD.md](counts/desk/README.md) for 14:13–15:15, and [counts/desk/SIXTEEN.md](counts/desk/README.md) for 15:33–16:05. At each window end the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner. A minute you did not read in full stays marked. The gap is not filled. A txid, a key, a seed, an address, a host, a port, and a covenant id stay out of the file. The accepting block hash may stay on the row. You do not write [counts/mini/](counts/mini/README.md).
 
-Before 10:35, prove [hashes/EIGHT.md](hashes/README.md), including its On origin time. Then genesis. Then the steps in the clock. Then the load, after [hashes/THIRTYTWO.md](hashes/README.md) has an On origin time. Then, only if the rules above say 43a may start, one sixteen-family step after [hashes/SIXTEEN.md](hashes/README.md) has an On origin time.
+Before 11:55, prove [hashes/EIGHT.md](hashes/README.md), including its On origin time. Then genesis. Then the steps in the clock. Then the load, after [hashes/THIRTYTWO.md](hashes/README.md) has an On origin time. Then, only if the rules above say 43a may start, one sixteen-family step after [hashes/SIXTEEN.md](hashes/README.md) has an On origin time.
 
 You do not wait for a person to speak. You do not start a second sender. You do not use the 7 Nov tasks.
 
@@ -120,7 +125,7 @@ You do not wait for a person to speak. You do not start a second sender. You do 
 
 Mini counts. Mini does not send, does not run genesis, does not mine, and does not hold a key. Mini's paste is [GO-MINI.md](GO-MINI.md). You do not do Mini's work, and you do not paste this desk file onto Mini.
 
-Mini's counter goes on at 10:38, again for the load at 12:53, and again for the sixteen families at 14:13. A minute Mini did not read stays marked. 1,026 hops per family does not stop Mini. Mini's runner publishes each closed file under [counts/mini/](counts/mini/README.md). You do not write that folder.
+Mini's counter goes on at 11:58, again for the load at 14:13, and again for the sixteen families at 15:33. A minute Mini did not read stays marked. 1,026 hops per family does not stop Mini. Mini's runner publishes each closed file under [counts/mini/](counts/mini/README.md). You do not write that folder.
 
 Turn **43b** is the later question, Mini sending and the desk counting. It has no date. It is not this run. Mini does not send on this plan.
 
@@ -150,7 +155,7 @@ The page for the sixteen-family step is [plan/SIXTEEN.md](plan/SIXTEEN.md). This
 - Any other repo as the plan for this run. The 8 Nov repo is the rehearsal this plan repeats. It is not a second clock.
 - A scheduled task as the arm, including the 7 Nov tasks.
 - A spoken "genesis is in".
-- A new clock after 10:20 UTC on Sun 8 Nov 2026.
+- A new clock after 11:40 UTC on Sun 8 Nov 2026.
 - A second runner because a chat compacted.
 - A start of 43a during the first shape or the load.
 - Mini sending, on this plan. Bot sending, on this plan.

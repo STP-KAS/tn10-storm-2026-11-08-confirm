@@ -8,9 +8,9 @@ Three files. One per counter. The runner writes the file as it counts, and the s
 
 | File | Counter on | Counter off |
 |---|---|---|
-| FIRST.md | 10:38 UTC | 12:40 UTC |
-| LOAD.md | 12:53 UTC | 13:55 UTC |
-| SIXTEEN.md | 14:13 UTC | 14:45 UTC |
+| FIRST.md | 11:58 UTC | 14:00 UTC |
+| LOAD.md | 14:13 UTC | 15:15 UTC |
+| SIXTEEN.md | 15:33 UTC | 16:05 UTC |
 
 A hop is in a file when the accepting block's header time is inside that counter. That header time is the clock. Mini's local receive time is not the clock. A minute Mini did not read in full stays marked. The gap is not filled. Genesis is not a hop. A conflicting spend is not a hop. Hops after the window are listed apart.
 
