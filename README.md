@@ -72,6 +72,6 @@ The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 
 ## Results
 
-None yet. The sends start at 12:00 UTC. A number from the 8 Nov rehearsal stays in that repo. It is one desk reading. This confirmation is not that count, and it is not the counted storm.
+The night finished at 16:10 UTC. `NIGHT_DONE`. Both publishers fired. The desk reading is [logs/METHOD.md](logs/METHOD.md). Desk accepted hops: 20,156 in the first window, 96,217 in the 32-family load, 17,777 in the sixteen-family step. Mini's three files are in [counts/mini/](counts/mini/README.md). The two readings are not averaged. This is not the Tuesday count.
 
 Counts only. No key, seed, txid, covenant id, address, host or port in this repo.
