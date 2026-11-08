@@ -1,14 +1,14 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only. No covenant id in this folder.
 >
-> Nothing here is a result. The files below are written by the desk runner before the matching submit. Until then they are absent on purpose. The date is blank, so they are absent now.
+> Nothing here is a result yet. The files below are written by the desk runner before the matching submit. Until then they are absent on purpose.
 
 # Hashes
 
 | File | When it has to be here | What it covers |
 |---|---|---|
-| EIGHT.md | before 00:40 UTC on the chosen day | the 1-to-8 shape |
-| THIRTYTWO.md | before 02:55 UTC | the 32-family load |
-| SIXTEEN.md | before 04:15 UTC, and after the load | the sixteen-family step |
+| EIGHT.md | before 10:40 UTC on Sun 8 Nov 2026 | the 1-to-8 shape |
+| THIRTYTWO.md | before 12:55 UTC | the 32-family load |
+| SIXTEEN.md | before 14:15 UTC, and after the load | the sixteen-family step |
 
 Each row is a sha256 of a lowercase hex covenant id. The id stays off this repo. The desk paste is [GO-DESK.md](../GO-DESK.md). No file, no send.
 

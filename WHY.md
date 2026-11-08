@@ -1,4 +1,4 @@
-> **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only. This is a plan. No date is set.
+> **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only. Sun 8 Nov 2026. Start 10:40 UTC. This is a new run.
 
 # Why this confirmation
 
@@ -27,6 +27,6 @@ Mini's files on that repo are Mini's own rows, over longer counters. They are no
 
 ## What this plan asks
 
-On the chosen day, both machines publish their own count files during the night, and each hash file shows the origin commit time before the matching send. The hop numbers are whatever the chain does. The success of the night is the procedure: one runner each, the clock held, both folders published, three hash files proved on origin.
+On Sun 8 Nov 2026, start 10:40 UTC, both machines publish their own count files during the run, and each hash file shows the origin commit time before the matching send. The hop numbers are whatever the chain does. The success of the run is the procedure: one runner each, the clock held, both folders published, three hash files proved on origin. The 00:40 UTC rehearsal is not restarted.
 
 43b, Mini sending the same sixteen, is still open. It is not this plan. [plan/LATER.md](plan/LATER.md) is the list of everything else that was checked and left out, so this clock stays one question.

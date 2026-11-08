@@ -1,14 +1,14 @@
-> **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only; tKAS has no value. **This is a plan, not a run. No date is set.** Mainnet: **not tested (label B)**.
+> **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only; tKAS has no value. **Confirmation run. Sun 8 Nov 2026, 10:40 UTC (11:40 CET).** Mainnet: **not tested (label B)**.
 >
-> **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Named by the [11 Oct naming rule](https://github.com/STP-KAS/tn-master/blob/main/repos/INDEX.md): a plan stays `tn10-storm-plan-*` until the day is chosen, then it is renamed to `tn10-storm-YYYY-MM-DD`.
+> **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Named by the [11 Oct naming rule](https://github.com/STP-KAS/tn-master/blob/main/repos/INDEX.md): `tn10-storm-YYYY-MM-DD` plus a suffix, because `tn10-storm-2026-11-08` is the closed rehearsal.
 
-# tn10-storm-plan-confirm
+# tn10-storm-2026-11-08-confirm
 
 **History of every storm: [MASTER.md](https://github.com/STP-KAS/tn-master/blob/main/history/MASTER.md)** (in tn-master).
 
 **Previous storm:** [tn10-storm-2026-11-08](https://github.com/STP-KAS/tn10-storm-2026-11-08). That repo is the rehearsal. It stands on its own. This plan does not move that clock.
 
-**The date is blank.** Pulse chooses the day. Until both pastes contain that same calendar day, and this repo has been renamed, a read of either paste does not start a runner.
+**The day is Sun 8 Nov 2026.** Start is 10:40 UTC (11:40 CET). This is a new run. It is not a restart of the 00:40 UTC rehearsal. Both pastes contain this day. A read of the desk paste on the desk starts the desk runner. A read of the Mini paste on Mini starts Mini's runner. The standing rule is [RULES.md](RULES.md).
 
 ## The two pastes
 
@@ -21,22 +21,22 @@ One story. One file for each computer. Paste the file that names the machine in 
 
 Each file is the whole plan. Grok Build does not guess the machine from its own name. The pasted file is the machine. [GO.md](GO.md) is the map. It does not start a session. Bot may read either file. Bot watches and does not send. The run does not wait for bot.
 
-## Clock, once the day exists
+## Clock
 
-Times are UTC first, on the chosen day. Desk local is CET (UTC+1). The offsets are the 8 Nov rehearsal.
+Times are UTC first. Desk local is CET (UTC+1). The shape is the 8 Nov rehearsal, moved ten hours later so this run has its own clock.
 
 | | UTC | CET |
 |---|---|---|
-| Both machines have read their paste | **00:20** | **01:20** |
-| Genesis, eight families | 00:35 | 01:35 |
-| Counts on | 00:38 | 01:38 |
-| **START (T0)** | **00:40** | **01:40** |
-| First sends finished | 02:10 | 03:10 |
-| First count off | 02:40 | 03:40 |
-| 32-family load | 02:55–03:40 | 03:55–04:40 |
-| Load count off | 03:55 | 04:55 |
-| Sixteen families, if the earlier part finished clean | **04:15–04:30** | **05:15–05:30** |
-| Sixteen-family count off | 04:45 | 05:45 |
+| Both machines have read their paste | **10:20** | **11:20** |
+| Genesis, eight families | 10:35 | 11:35 |
+| Counts on | 10:38 | 11:38 |
+| **START (T0)** | **10:40** | **11:40** |
+| First sends finished | 12:10 | 13:10 |
+| First count off | 12:40 | 13:40 |
+| 32-family load | 12:55–13:40 | 13:55–14:40 |
+| Load count off | 13:55 | 14:55 |
+| Sixteen families, if the earlier part finished clean | **14:15–14:30** | **15:15–15:30** |
+| Sixteen-family count off | 14:45 | 15:45 |
 
 The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 
@@ -63,6 +63,7 @@ The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 | [plan/COUNT.md](plan/COUNT.md) | How a hop is counted, and where each file is published |
 | [plan/SIXTEEN.md](plan/SIXTEEN.md) | Why sixteen families are in this confirmation |
 | [plan/LATER.md](plan/LATER.md) | Drafts that were checked and left for another night |
+| [RULES.md](RULES.md) | The standing rule. Who publishes, how a hash file is proved, one runner |
 | [hashes/README.md](hashes/README.md) | Three hash files. Absent until the desk runner writes them |
 | [counts/desk/README.md](counts/desk/README.md) | The desk's three count files |
 | [counts/mini/README.md](counts/mini/README.md) | Mini's three count files |
@@ -70,6 +71,6 @@ The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 
 ## Results
 
-None. The day is not chosen. A number from the 8 Nov rehearsal stays in that repo. It is one desk reading.
+None yet. The sends start at 10:40 UTC. A number from the 8 Nov rehearsal stays in that repo. It is one desk reading. This confirmation is not that count, and it is not the counted storm.
 
 Counts only. No key, seed, txid, covenant id, address, host or port in this repo.

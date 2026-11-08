@@ -1,12 +1,12 @@
-> **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only. The date is blank.
+> **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only.
 
 # One clock
 
-T0 is **00:40 UTC** on **DATE**. CET is 01:40. The plan is the whole clock in [GO-DESK.md](../GO-DESK.md) and [GO-MINI.md](../GO-MINI.md), through the sixteen-family step.
+T0 is **10:40 UTC** on **Sun 8 Nov 2026**. CET is 11:40. The plan is the whole clock in [GO-DESK.md](../GO-DESK.md) and [GO-MINI.md](../GO-MINI.md), through the sixteen-family step. This is a new run. It is not a restart of the 00:40 UTC rehearsal.
 
-There is one sender. The desk. The desk counts, and the desk runner publishes the closed files under [counts/desk/](../counts/desk/README.md). Mini counts, and Mini's runner publishes the closed files under [counts/mini/](../counts/mini/README.md). Bot watches and does not send.
+There is one sender. The desk. The desk counts, and the desk runner publishes the closed files under [counts/desk/](../counts/desk/README.md). Mini counts, and Mini's runner publishes the closed files under [counts/mini/](../counts/mini/README.md). Bot watches and does not send. The standing rule is [RULES.md](../RULES.md).
 
-While either paste says DATE, a read does not start a runner.
+A read of the paste that names the machine, on that machine, starts that machine's runner. This folder is not a paste.
 
 ## Which file
 
